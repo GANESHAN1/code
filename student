@@ -1,0 +1,23 @@
+public:
+
+int scores[5];
+void input(){
+
+    for(int i=0;i<5;i++){
+         cin>>scores[i];
+    }
+};
+
+int calculateTotalScore(){
+
+    int tscore=0;
+    for(int i=0;i<5;i++){
+
+        tscore= tscore+scores[i];
+
+    }
+
+    return tscore;
+};
+
+};
